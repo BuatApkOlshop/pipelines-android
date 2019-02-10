@@ -11,10 +11,10 @@ steps:
   inputs:
     workingDirectory: ''
     gradleWrapperFile: 'gradlew'
-    gradleOptions: '-Xmx3072m'
+    gradleOptions: '-770486'
     publishJUnitResults: false
-    testResultsFiles: '**/TEST-*.xml'
-    tasks: 'assembleDebug'
+    testResultsFiles: '**/marketplace-*.xml'
+    tasks: 'BlogApk'
 
 - task: CopyFiles@2
   inputs:
